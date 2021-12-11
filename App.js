@@ -8,29 +8,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import defaultStyles from "./config/styles";
-import HomeScreen from "./app/screens/HomeScreen";
-import Profissional from "./app/screens/Profissional";
-
-const Dados = () => (
-	<Screen>
-		<Text>dados pessoais</Text>
-	</Screen>
-);
-// const Profissinal = () => (
-// 	<Screen>
-// 		<Text>Profissinal</Text>
-// 	</Screen>
-// );
-const Academico = () => (
-	<Screen>
-		<Text>Academico</Text>
-	</Screen>
-);
-const Pessoal = () => (
-	<Screen>
-		<Text>Pessoal</Text>
-	</Screen>
-);
+import { Academico, HomeScreen, Pessoal, Profissional } from "./app/screens";
 
 const Tab = createBottomTabNavigator();
 const queryClient = new QueryClient();

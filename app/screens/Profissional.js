@@ -34,6 +34,7 @@ function Profissional(props) {
 						title={item.empresa}
 						subtitle={item.cargo}
 						image={item.image}
+						paragraph="test"
 					/>
 				)}
 				ItemSeparatorComponent={Divider}
