@@ -22,10 +22,10 @@ const expAcademicas = [
 	},
 	{
 		id: 3,
-		curso: "Administração",
-		instituicao: "Curso de sei lá",
-		dtInicio: "2016",
-		dtFim: "2019",
+		curso: "Economia",
+		instituicao: "UFPE",
+		dtInicio: "2012",
+		dtFim: "2015",
 	},
 ];
 

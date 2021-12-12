@@ -17,7 +17,7 @@ const TabNavigator = () => (
 	<Tab.Navigator
 		screenOptions={{
 			tabBarActiveTintColor: defaultStyles.colors.primary,
-			headerShown: false,
+			headerShown: true,
 			// tabBarActiveBackgroundColor​: '#e91e63',
 			// tabBarActiveTintColor: 'white',
 			// tabBarInactiveBackgroundColor​: '#eee',

@@ -11,7 +11,7 @@ import Social from "../components/Social";
 const dadosPessoais = {
 	id: 1,
 	nome: "Luiz Carlos",
-	especialidade: "X",
+	especialidade: "Estudante de Web / QA Intern",
 	endereco: "R. do Príncipe, 526 - Boa Vista",
 	email: "luiz.2020107069@unicap.br",
 	telefone: "(81) 99512-4444",
@@ -85,5 +85,3 @@ export default HomeScreen;
 // String Endereço
 // String E-mail
 // String Telefone
-
-// https://programmingwithmosh.com/react-native/make-api-calls-in-react-native-using-fetch/

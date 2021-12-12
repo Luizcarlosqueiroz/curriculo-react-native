@@ -15,8 +15,20 @@ const experienciasProfissionais = [
 	},
 	{
 		id: 2,
-		empresa: "Raylife",
-		cargo: "Intern",
+		empresa: "FedEx Espress",
+		cargo: "Assistente Administrativo",
+		image: require("../assets/liferay-logo.png"),
+	},
+	{
+		id: 3,
+		empresa: "FedEx Espress",
+		cargo: "Assistente de Operações",
+		image: require("../assets/liferay-logo.png"),
+	},
+	{
+		id: 4,
+		empresa: "FedEx Espress",
+		cargo: "Auxiliar de Operações",
 		image: require("../assets/liferay-logo.png"),
 	},
 ];
@@ -34,7 +46,7 @@ function Profissional(props) {
 						title={item.empresa}
 						subtitle={item.cargo}
 						image={item.image}
-						paragraph="test"
+						paragraph="Descição das atividades"
 					/>
 				)}
 				ItemSeparatorComponent={Divider}
